@@ -5,7 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="66e3ee32-1ac3-4b83-bb4e-dcf3ff0a3e31" name="Changes" comment="others tests">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scriptkafka/kafka_console_consumer.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scriptkafka/kafka_console_producer.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scriptkafka/kafka_server.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scriptkafka/launch_zookeeper.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scriptkafka/topic_creation.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scriptkafka/topic_description.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,7 +38,9 @@
     <option name="version" value="2" />
   </component>
   <component name="ProjectId" id="2AIfW7ZJ6Hju7RVqB1rRnXDaAcy" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -45,13 +53,31 @@
     <property name="project.structure.last.edited" value="Global Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunAnythingCache">
     <option name="myCommands">
       <command value="mvn clean install -U" />
       <command value="mvn dependency:resolve" />
     </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="launch_zookeeper" type="BatchConfigurationType" factoryName="Batch" temporary="true">
+      <module name="apps streaming kafka Streams" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="WORKING_DIRECTORY" value="C:\Users\MB\IdeaProjects\apps streaming kafka Streams\scriptkafka" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SCRIPT_NAME" value="launch_zookeeper.cmd" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Batch.launch_zookeeper" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -64,7 +90,10 @@
       <workItem from="1654702084754" duration="6942000" />
       <workItem from="1654776462376" duration="7371000" />
       <workItem from="1654795931827" duration="2794000" />
-      <workItem from="1654866440660" duration="1154000" />
+      <workItem from="1654866440660" duration="1440000" />
+      <workItem from="1654936133203" duration="137000" />
+      <workItem from="1654936294178" duration="87000" />
+      <workItem from="1654936413863" duration="1537000" />
     </task>
     <task id="LOCAL-00001" summary="others tests">
       <created>1654798463818</created>
@@ -80,7 +109,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654798640861</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="others tests">
+      <created>1654935837731</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1654935837731</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
