@@ -5,13 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="66e3ee32-1ac3-4b83-bb4e-dcf3ff0a3e31" name="Changes" comment="others tests">
-      <change afterPath="$PROJECT_DIR$/scriptkafka/kafka_console_consumer.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scriptkafka/kafka_console_producer.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scriptkafka/kafka_server.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scriptkafka/launch_zookeeper.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scriptkafka/topic_creation.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scriptkafka/topic_description.cmd" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scriptkafka/kafka_server.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/scriptkafka/kafka_server.cmd" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,11 +56,22 @@
       <command value="mvn dependency:resolve" />
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Batch.kafka_server">
+    <configuration name="kafka_server" type="BatchConfigurationType" factoryName="Batch" temporary="true">
+      <module name="apps streaming kafka Streams" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="WORKING_DIRECTORY" value="./scriptkafka" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SCRIPT_NAME" value="kafka_server.cmd" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="launch_zookeeper" type="BatchConfigurationType" factoryName="Batch" temporary="true">
       <module name="apps streaming kafka Streams" />
       <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="WORKING_DIRECTORY" value="C:\Users\MB\IdeaProjects\apps streaming kafka Streams\scriptkafka" />
+      <option name="WORKING_DIRECTORY" value="./scriptkafka" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SCRIPT_NAME" value="launch_zookeeper.cmd" />
       <option name="PARAMETERS" value="" />
@@ -75,6 +81,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Batch.kafka_server" />
         <item itemvalue="Batch.launch_zookeeper" />
       </list>
     </recent_temporary>
@@ -93,7 +100,8 @@
       <workItem from="1654866440660" duration="1440000" />
       <workItem from="1654936133203" duration="137000" />
       <workItem from="1654936294178" duration="87000" />
-      <workItem from="1654936413863" duration="1537000" />
+      <workItem from="1654936413863" duration="2320000" />
+      <workItem from="1655045805299" duration="965000" />
     </task>
     <task id="LOCAL-00001" summary="others tests">
       <created>1654798463818</created>
@@ -116,7 +124,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654935837731</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="others tests">
+      <created>1654937976178</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1654937976178</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
